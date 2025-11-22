@@ -1,0 +1,43 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 279 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.1.92:3000/
+6:31:02 AM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+6:31:02 AM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+6:31:02 AM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+6:31:02 AM [vite] Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+6:31:05 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/UI.js:6:9
+  4  |    <div className={`rounded-2xl p-4 bg-[color:var(--bg-card)] border border-white/10 shadow-[0_8px_25px_rgba(0,0,0,0.35)] backdrop-blur-md ${className}`}>
+  5  |      {children}
+  6  |    </div>
+     |          ^
+  7  |  );
+  8  |  
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64258:14)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+6:33:31 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/UI.js:6:9
+  4  |    <div className={`rounded-2xl p-4 bg-[color:var(--bg-card)] border border-white/10 shadow-[0_8px_25px_rgba(0,0,0,0.35)] backdrop-blur-md ${className}`}>
+  5  |      {children}
+  6  |    </div>
+     |          ^
+  7  |  );
+  8  |  
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64258:14)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
